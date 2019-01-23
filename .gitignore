@@ -29,3 +29,4 @@ node_modules
 build/**/*.js
 build/**/*.css
 .DS_Store
+/build

@@ -8,8 +8,8 @@ let addImg = (src) => {
 }
 
 Promise.all([
-  loadImage('images/xcat1.jpg'),
-  loadImage('images/cxat2.jpg'),
+  loadImage('images/cat1.jpg'),
+  loadImage('images/cat2.jpg'),
   loadImage('images/cat3.jpg'),
   loadImage('images/cat4.jpg')
 ]).then((images) => {
